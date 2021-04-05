@@ -1,0 +1,25 @@
+.page-header__wrapper {
+  width: 873px;
+  margin: 0 auto;
+  margin-top: 256px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header__slogan h2 {
+  width: 381px;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 64px;
+  letter-spacing: -0.005em;
+  color: $white;
+}
+
+.page-header__slogan p {
+  width: 381px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.005em;
+  color: rgba($white, 0.8);
+}
