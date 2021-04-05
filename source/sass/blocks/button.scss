@@ -10,4 +10,8 @@
   padding: 15px 48px;
   display: inline-block;
   cursor: pointer;
+
+  @media (max-width: $tablet-width) {
+    padding: 15px 28px;
+  }
 }

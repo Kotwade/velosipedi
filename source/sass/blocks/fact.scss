@@ -1,0 +1,63 @@
+.fact {
+  @media (max-width: $desktop-width) {
+    margin-top: 390px;
+  }
+}
+
+.fact h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  color: $dark;
+  letter-spacing: -0.005em;
+  text-align: center;
+
+  @media (max-width: $desktop-width) {
+    font-size: 24px;
+    line-height: 41px;
+  }
+}
+
+.fact__list {
+  width: 1166px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media (max-width: $desktop-width) {
+    width: 556px;
+  }
+
+  @media (max-width: $tablet-width) {
+    width: 290px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.fact__list-item {
+  width: 263px;
+}
+
+.fact__list-item span {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  color: $blue;
+  letter-spacing: -1px;
+  display: block;
+  text-align: center;
+}
+
+.fact__list-item p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  color: $black;
+  text-align: center;
+
+  @media (max-width: $tablet-width) {
+    font-size: 18px;
+  }
+}

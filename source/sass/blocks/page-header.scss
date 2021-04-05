@@ -4,6 +4,35 @@
   margin-top: 256px;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: $desktop-width) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 435px;
+    margin-top: 84px;
+    margin-bottom: 70px;
+  }
+
+  @media (max-width: $tablet-width) {
+    width: 288px;
+  }
+}
+
+.page-header__container {
+  @media (max-width: $desktop-width) {
+    margin-bottom: 100px;
+  }
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 70px;
+  }
+}
+
+.page-header__logo {
+  @media (max-width: $desktop-width) {
+    display: none;
+  }
 }
 
 .page-header__slogan h2 {
@@ -13,6 +42,17 @@
   line-height: 64px;
   letter-spacing: -0.005em;
   color: $white;
+
+  @media (max-width: $desktop-width) {
+    width: 435px;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  @media (max-width: $tablet-width) {
+    width: 288px;
+  }
 }
 
 .page-header__slogan p {
@@ -22,4 +62,14 @@
   line-height: 32px;
   letter-spacing: -0.005em;
   color: rgba($white, 0.8);
+
+  @media (max-width: $desktop-width) {
+    width: 435px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  @media (max-width: $tablet-width) {
+    width: 288px;
+  }
 }
