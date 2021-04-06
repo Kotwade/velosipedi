@@ -6,7 +6,7 @@
 
 .video__text {
   padding-top: 90px;
-  padding-bottom: 500px;
+  padding-bottom: 480px;
 
   @media (max-width: $desktop-width) {
     padding-bottom: 282px;
@@ -24,6 +24,7 @@
   color: $white;
   letter-spacing: -0.005em;
   text-align: center;
+  margin-bottom: 20px;
 
   @media (max-width: $desktop-width) {
     font-size: 24px;
@@ -51,7 +52,7 @@
 
 .video__image {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 84px;
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -77,7 +78,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 80%;
+  top: 77%;
   left: 50%;
   transform: translate(-50%, -50%);
 

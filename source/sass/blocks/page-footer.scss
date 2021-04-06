@@ -4,6 +4,7 @@
 
 .page-footer__address {
   text-align: center;
+  margin-top: 250px;
 }
 
 .page-footer__address h3 {
@@ -28,6 +29,7 @@
   width: 555px;
   opacity: 0.7;
   margin: 0 auto;
+  margin-bottom: 39px;
 
   @media (max-width: $desktop-width) {
     width: 629px;
@@ -69,9 +71,11 @@
 
 .page-footer__contacts {
   display: flex;
-  width: 563px;
+  width: 483px;
   justify-content: space-between;
   margin: 0 auto;
+  margin-top: 35px;
+  padding-bottom: 98px;
 
   @media (max-width: $tablet-width) {
     width: 100%;

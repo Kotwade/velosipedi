@@ -17,6 +17,10 @@
   letter-spacing: -0.005em;
   text-align: center;
   color: $white;
+  padding: 0;
+  margin: 0;
+  padding-top: 11px;
+  margin-bottom: 18px;
 
   @media (max-width: $desktop-width) {
     color: $black;
@@ -34,7 +38,7 @@
   color: $midle-dark;
   border: 1px solid $input-border;
   border-radius: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 
   &::placeholder {
     font-family: inherit;

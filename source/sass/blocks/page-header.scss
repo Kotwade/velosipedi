@@ -1,7 +1,7 @@
 .page-header__wrapper {
-  width: 873px;
+  width: 879px;
   margin: 0 auto;
-  margin-top: 256px;
+  margin-top: 250px;
   display: flex;
   justify-content: space-between;
 
@@ -45,6 +45,10 @@
   line-height: 64px;
   letter-spacing: -0.005em;
   color: $white;
+  margin: 0;
+  padding: 0;
+  margin-top: 27px;
+  margin-bottom: 25px;
 
   @media (max-width: $desktop-width) {
     width: 435px;
