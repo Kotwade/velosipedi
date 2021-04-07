@@ -2,6 +2,10 @@
   background-color: $video-dark;
   position: relative;
   margin-bottom: 200px;
+
+  @media (max-width: $desktop-width) {
+    margin-bottom: 0;
+  }
 }
 
 .video__text {
@@ -9,11 +13,13 @@
   padding-bottom: 480px;
 
   @media (max-width: $desktop-width) {
-    padding-bottom: 282px;
+    padding-bottom: 237px;
+    padding-top: 46px;
   }
 
   @media (max-width: $tablet-width) {
-    padding-bottom: 163px;
+    padding-bottom: 166px;
+    padding-top: 60px;
   }
 }
 
@@ -61,11 +67,13 @@
     width: 503px;
     height: 282px;
     object-fit: cover;
+    margin-top: 89px;
   }
 
   @media (max-width: $tablet-width) {
     width: 288px;
     height: 162px;
+    margin-top: 102px;
   }
 }
 
@@ -85,12 +93,12 @@
   @media (max-width: $desktop-width) {
     width: 90px;
     height: 90px;
-    top: 85%;
+    top: 87%;
   }
 
   @media (max-width: $tablet-width) {
     width: 65px;
     height: 65px;
-    top: 90%;
+    top: 91%;
   }
 }

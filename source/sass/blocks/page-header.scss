@@ -11,30 +11,31 @@
     align-items: center;
     width: 435px;
     margin-top: 0;
-    padding-top: 84px;
+    padding-top: 108px;
     margin-bottom: 70px;
   }
 
   @media (max-width: $tablet-width) {
     width: 288px;
+    padding-top: 94px;
   }
 }
 
 .page-header__container {
   @media (max-width: $desktop-width) {
-    margin-bottom: 100px;
+    margin-bottom: 121px;
   }
 
   @media (max-width: $tablet-width) {
-    margin-bottom: 70px;
+    margin-bottom: 111px;
   }
 }
 
 .page-header__logo {
   @media (max-width: $desktop-width) {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 19px;
+    left: 22px;
   }
 }
 
@@ -55,6 +56,7 @@
     font-size: 30px;
     line-height: 42px;
     text-align: center;
+    margin-bottom: 19px;
   }
 
   @media (max-width: $tablet-width) {

@@ -5,6 +5,14 @@
 .page-footer__address {
   text-align: center;
   margin-top: 250px;
+
+  @media (max-width: $desktop-width) {
+    margin-top: 155px;
+  }
+
+  @media (max-width: $tablet-width) {
+    margin-top: 119px;
+  }
 }
 
 .page-footer__address h3 {
@@ -15,6 +23,7 @@
 
   @media (max-width: $desktop-width) {
     font-size: 24px;
+    margin-bottom: 20px;
   }
 
   @media (max-width: $tablet-width) {
@@ -33,10 +42,11 @@
 
   @media (max-width: $desktop-width) {
     width: 629px;
+    margin-bottom: 20px;
   }
 
   @media (max-width: $tablet-width) {
-    width: 100%;
+    width: 268px;
   }
 }
 
@@ -45,14 +55,11 @@
   width: 957px;
 
   @media (max-width: $desktop-width) {
-    width: 100%;
-    padding-left: 35px;
-    padding-right: 35px;
+    width: 698px;
   }
 
   @media (max-width: $tablet-width) {
-    padding-left: 0;
-    padding-right: 0;
+    width: 320px;
   }
 }
 
@@ -60,12 +67,13 @@
   border: none;
 
   @media (max-width: $desktop-width) {
-    width: 100%;
+    width: 698px;
     height: 545px;
   }
 
   @media (max-width: $tablet-width) {
     height: 250px;
+    width: 320px;
   }
 }
 
@@ -77,11 +85,18 @@
   margin-top: 35px;
   padding-bottom: 98px;
 
+  @media (max-width: $desktop-width) {
+    margin-top: 17px;
+    padding-bottom: 53px;
+  }
+
   @media (max-width: $tablet-width) {
     width: 100%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 26px;
+    margin-top: 26px;
   }
 }
 
@@ -95,6 +110,10 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 25px;
+  }
 }
 
 .page-footer__contacts-mail::before {
