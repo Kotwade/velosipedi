@@ -1,9 +1,21 @@
+.page-header {
+  position: relative;
+  background-image: url("../img/bike.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  @media (max-width: $desktop-width) {
+    background-image: none;
+  }
+}
+
 .page-header__wrapper {
   width: 879px;
   margin: 0 auto;
   margin-top: 250px;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 219px;
 
   @media (max-width: $desktop-width) {
     flex-direction: column;
@@ -11,23 +23,27 @@
     align-items: center;
     width: 435px;
     margin-top: 0;
-    padding-top: 108px;
-    margin-bottom: 70px;
+    margin-bottom: 26px;
+    padding-bottom: 43px;
   }
 
   @media (max-width: $tablet-width) {
     width: 288px;
-    padding-top: 94px;
   }
 }
 
 .page-header__container {
   @media (max-width: $desktop-width) {
-    margin-bottom: 121px;
+    background-image: url("../img/bike-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 108px 169px 100px;
   }
 
   @media (max-width: $tablet-width) {
-    margin-bottom: 111px;
+    margin-bottom: 0;
+    padding: 94px 16px 90px;
+    background-image: url("../img/bike-mobile.jpg");
   }
 }
 

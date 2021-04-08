@@ -5,6 +5,7 @@
   top: 0;
   right: 0;
   background-color: $blue;
+  cursor: pointer;
   border: none;
   display: none;
 
@@ -21,5 +22,22 @@
 
   @media (max-width: $desktop-width) {
     display: flex;
+  }
+}
+
+.page-header--nojs .main-nav__toggle {
+  display: none;
+}
+
+.page-header--opened .main-nav__toggle {
+  height: 52px;
+  background-color: $white;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-image: url("../img/cross.svg");
   }
 }
