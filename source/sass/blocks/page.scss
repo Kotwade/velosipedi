@@ -12,3 +12,8 @@
   background-color: $white;
   color: $black;
 }
+
+.page__body--opened {
+  height: 100vh;
+  overflow: hidden;
+}

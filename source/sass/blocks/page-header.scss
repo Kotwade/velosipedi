@@ -1,11 +1,18 @@
 .page-header {
   position: relative;
   background-image: url("../img/bike.jpg");
+  background-color: $video-dark;
   background-repeat: no-repeat;
   background-position: center top;
 
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/bike@2x.jpg");
+    background-size: 100% auto;
+  }
+
   @media (max-width: $desktop-width) {
     background-image: none;
+    background-color: transparent;
   }
 }
 
@@ -37,13 +44,26 @@
     background-image: url("../img/bike-tablet.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    padding: 108px 169px 100px;
+    background-color: $video-dark;
+    width: 768px;
+    padding: 135px 0 80px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/bike-tablet@2x.jpg");
+      background-size: 100% auto;
+    }
   }
 
   @media (max-width: $tablet-width) {
     margin-bottom: 0;
-    padding: 94px 16px 90px;
+    width: 320px;
+    padding: 121px 0 70px;
     background-image: url("../img/bike-mobile.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/bike-mobile@2x.jpg");
+      background-size: 100% auto;
+    }
   }
 }
 
@@ -72,6 +92,7 @@
     font-size: 30px;
     line-height: 42px;
     text-align: center;
+    margin: 0 auto;
     margin-bottom: 19px;
   }
 
@@ -91,6 +112,7 @@
   @media (max-width: $desktop-width) {
     width: 435px;
     font-size: 18px;
+    margin: 0 auto;
     text-align: center;
   }
 

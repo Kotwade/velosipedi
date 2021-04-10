@@ -47,9 +47,7 @@
 
 .bike__list-item {
   position: relative;
-}
 
-.bike__list-item:first-child {
   @media (max-width: $desktop-width) {
     margin-right: 50px;
   }
@@ -135,6 +133,7 @@
 
   @media (max-width: $desktop-width) {
     margin-top: 0;
+    margin-right: 0;
 
     &::before {
       display: none;
@@ -155,10 +154,12 @@
 
   @media (max-width: $desktop-width) {
     margin-top: 28px;
+    margin-left: 50px;
   }
 
   @media (max-width: $tablet-width) {
     margin-top: 20px;
+    margin-left: 0;
   }
 }
 
