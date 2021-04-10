@@ -1,36 +1,43 @@
 .video {
-  background-color: $video-dark;
   position: relative;
-  margin-bottom: 200px;
+  padding-top: 91px;
+  background: linear-gradient(180deg, $video-dark 87.8%, $white 12.2%);
 
   @media (max-width: $desktop-width) {
-    margin-bottom: 0;
+    padding-top: 46px;
+    background: linear-gradient(180deg, $video-dark 82.9%, $white 17.1%);
+  }
+
+  @media (max-width: $tablet-width) {
+    padding-top: 60px;
+    background: linear-gradient(180deg, $video-dark 88.8%, $white 11.2%);
   }
 }
 
 .video__text {
-  padding-top: 90px;
-  padding-bottom: 480px;
+  max-width: 350px;
+  margin: 0 auto;
+  padding-bottom: 39px;
+  text-align: center;
+  color: $white;
+  letter-spacing: -0.005em;
 
   @media (max-width: $desktop-width) {
-    padding-bottom: 237px;
-    padding-top: 46px;
+    max-width: 429px;
+    padding-bottom: 23px;
   }
 
   @media (max-width: $tablet-width) {
-    padding-bottom: 166px;
-    padding-top: 60px;
+    max-width: 288px;
+    padding-bottom: 37px;
   }
 }
 
 .video__text h3 {
+  margin-bottom: 20px;
   font-weight: 600;
   font-size: 30px;
   line-height: 30px;
-  color: $white;
-  letter-spacing: -0.005em;
-  text-align: center;
-  margin-bottom: 20px;
 
   @media (max-width: $desktop-width) {
     font-size: 24px;
@@ -41,64 +48,66 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
-  text-align: center;
-  letter-spacing: -0.005em;
-  color: rgba($white, 0.7);
-  width: 340px;
-  margin: 0 auto;
-
-  @media (max-width: $desktop-width) {
-    width: 429px;
-  }
-
-  @media (max-width: $tablet-width) {
-    width: 288px;
-  }
+  opacity: 0.7;
 }
 
 .video__image {
-  position: absolute;
-  margin-top: 84px;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+}
+
+.video__image img {
+  display: block;
+  width: 100%;
+  max-width: 929px;
+  height: auto;
+  margin: 0 auto;
 
   @media (max-width: $desktop-width) {
     width: 503px;
-    height: 282px;
     object-fit: cover;
-    margin-top: 89px;
   }
 
   @media (max-width: $tablet-width) {
     width: 288px;
-    height: 162px;
-    margin-top: 102px;
   }
 }
 
 .video__button {
-  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 65px;
   height: 65px;
+  padding: 0;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 77%;
-  left: 50%;
   transform: translate(-50%, -50%);
 
   @media (max-width: $desktop-width) {
     width: 90px;
     height: 90px;
-    top: 87%;
   }
 
   @media (max-width: $tablet-width) {
     width: 65px;
     height: 65px;
-    top: 91%;
+  }
+}
+
+.video__button img {
+  width: 13px;
+  height: 18px;
+  margin: auto;
+
+  @media (max-width: $desktop-width) {
+    width: 18px;
+    height: 25px;
+  }
+
+  @media (max-width: $tablet-width) {
+    width: 13px;
+    height: 18px;
   }
 }

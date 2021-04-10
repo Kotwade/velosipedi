@@ -1,5 +1,10 @@
 .bike {
   background-color: $grey;
+  padding-top: 119px;
+
+  @media (max-width: $desktop-width) {
+    padding-top: 26px;
+  }
 }
 
 .bike h3 {
@@ -9,13 +14,11 @@
   letter-spacing: -0.005em;
   color: $dark;
   text-align: center;
-  padding-top: 149px;
   margin-bottom: 61px;
 
   @media (max-width: $desktop-width) {
     font-size: 24px;
     line-height: 41px;
-    padding-top: 50px;
     margin-bottom: 30px;
   }
 }

@@ -47,24 +47,12 @@
   <main class="page-main">
     <section class="fact">
       <h3>Несколько фактов о нас</h3>
-      <div class="fact__list">
-        <div class="fact__list-item">
-          <span>01</span>
-          <p>Самый широкий выбор велосипедов!</p>
-        </div>
-        <div class="fact__list-item">
-          <span>02</span>
-          <p>Доставка велосипедов по всей России!</p>
-        </div>
-        <div class="fact__list-item">
-          <span>03</span>
-          <p>Большой выбор крутых аксессуаров!</p>
-        </div>
-        <div class="fact__list-item">
-          <span>04</span>
-          <p>Профессиональные консультации!</p>
-        </div>
-      </div>
+      <ul class="fact__list">
+        <li class="fact__list-item">Самый широкий выбор велосипедов!</li>
+        <li class="fact__list-item">Доставка велосипедов по всей России!</li>
+        <li class="fact__list-item fact__list-item--last">Большой выбор крутых аксессуаров!</li>
+        <li class="fact__list-item fact__list-item--last">Профессиональные консультации!</li>
+      </ul>
     </section>
     <section class="bike">
       <h3>Виды велосипедов</h3>
@@ -88,8 +76,10 @@
         <h3>Видео про велосипеды</h3>
         <p>В этом видео мы подробно расскажем про особенности выбора велосипеда для себя.</p>
       </div>
-      <img class="video__image" src="img/video-preview.jpg" width="929" height="522" alt="Превью видео">
-      <button class="button video__button" type="button"><img src="img/play-icon.svg" width="13" height="18"></button>
+      <div class="video__image">
+        <img src="img/video-preview.jpg" width="929" height="522" alt="Превью видео">
+        <button class="button video__button" type="button"><img src="img/play-icon.svg" width="13" height="18"></button>
+      </div>
     </section>
   </main>
   <footer class="page-footer">

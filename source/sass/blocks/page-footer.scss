@@ -1,17 +1,21 @@
 .page-footer {
-  margin-top: 50px;
+  padding-top: 50px;
+
+  @media (max-width: $desktop-width) {
+    padding-top: 46px;
+  }
 }
 
 .page-footer__address {
   text-align: center;
-  margin-top: 250px;
+  padding-top: 72px;
 
   @media (max-width: $desktop-width) {
-    margin-top: 155px;
+    padding-top: 0;
   }
 
   @media (max-width: $tablet-width) {
-    margin-top: 119px;
+    padding-top: 6px;
   }
 }
 
