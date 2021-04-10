@@ -32,6 +32,24 @@
   letter-spacing: -0.005em;
   text-decoration: none;
 
+  &:hover {
+    color: $white;
+
+    @media (max-width: $desktop-width) {
+      color: $dark-grey;
+      background-color: $input-border;
+    }
+  }
+
+  &:active {
+    color: rgba($white, 0.3);
+
+    @media (max-width: $desktop-width) {
+      color: $dark-grey;
+      background-color: rgba($input-border, 0.5);
+    }
+  }
+
   @media (max-width: $desktop-width) {
     position: relative;
     font-weight: 400;

@@ -118,6 +118,14 @@
   margin: 0;
   text-decoration: none;
 
+  &:hover {
+    background-color: $input-border;
+  }
+
+  &:active {
+    background-color: rgba($input-border, 0.6);
+  }
+
   @media (max-width: $tablet-width) {
     margin-bottom: 25px;
   }

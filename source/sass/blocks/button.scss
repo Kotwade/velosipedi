@@ -11,6 +11,14 @@
   display: inline-block;
   cursor: pointer;
 
+  &:hover {
+    background-color: rgba($blue, 0.8);
+  }
+
+  &:active {
+    background-color: rgba($blue, 0.5);
+  }
+
   @media (max-width: $desktop-width) {
     padding: 16px 49px;
   }

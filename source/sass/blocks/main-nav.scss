@@ -10,6 +10,14 @@
   border: none;
   display: none;
 
+  &:hover {
+    background-color: rgba($blue, 0.8);
+  }
+
+  &:active {
+    background-color: rgba($blue, 0.5);
+  }
+
   &::before {
     content: "";
     position: absolute;
@@ -33,6 +41,14 @@
 .page-header--opened .main-nav__toggle {
   height: 52px;
   background-color: $white;
+
+  &:hover {
+    background-color: $input-border;
+  }
+
+  &:active {
+    background-color: rgba($input-border, 0.7);
+  }
 
   &::before {
     content: "";
