@@ -83,7 +83,7 @@
 
 .page-footer__contacts {
   display: flex;
-  width: 563px;
+  width: 564px;
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 35px;
@@ -106,9 +106,6 @@
 
 .page-footer__contacts a {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
@@ -116,6 +113,7 @@
   opacity: 0.5;
   padding: 0;
   margin: 0;
+  padding-left: 41px;
   text-decoration: none;
 
   &:hover {
@@ -131,6 +129,24 @@
   }
 }
 
-.page-footer__contacts-image {
-  margin-right: 15px;
+.page-footer__contacts-mail::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 26px;
+  height: 20px;
+  background-image: url("../img/mail-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.page-footer__contacts-tel::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 17px;
+  height: 24px;
+  background-image: url("../img/tel-icon.svg");
+  background-repeat: no-repeat;
 }

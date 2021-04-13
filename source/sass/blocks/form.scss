@@ -35,7 +35,7 @@
 }
 
 .form__field input {
-  width: 269px;
+  width: 329px;
   padding: 14px 29px 10px;
   font-family: inherit;
   font-weight: 400;
@@ -55,12 +55,12 @@
   }
 
   @media (max-width: $desktop-width) {
-    width: 277px;
+    width: 324px;
     padding: 14px 21px 10px;
   }
 
   @media (max-width: $tablet-width) {
-    width: 243px;
+    width: 288px;
     padding: 13px 19px 11px 26px;
   }
 }

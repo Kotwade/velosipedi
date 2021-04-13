@@ -82,8 +82,8 @@
 .bike__list-item--road::before {
   content: "";
   position: absolute;
-  width: 134px;
-  height: 134px;
+  width: 180px;
+  height: 180px;
   background-color: transparent;
   border: 27px solid $blue;
   top: 37%;
@@ -93,8 +93,8 @@
 
   @media (max-width: $desktop-width) {
     top: 70%;
-    width: 100px;
-    height: 100px;
+    width: 127px;
+    height: 127px;
     border-width: 18px;
     left: -39px;
   }
@@ -110,8 +110,8 @@
   &::before {
     content: "";
     position: absolute;
-    width: 31px;
-    height: 31px;
+    width: 47px;
+    height: 47px;
     background-color: transparent;
     border: 8px solid $blue;
     top: -18px;
@@ -122,8 +122,8 @@
   &::after {
     content: "";
     position: absolute;
-    width: 31px;
-    height: 31px;
+    width: 47px;
+    height: 47px;
     background-color: transparent;
     border: 8px solid $blue;
     bottom: 53px;
@@ -166,8 +166,8 @@
 .bike__list-item--baby::after {
   content: "";
   position: absolute;
-  width: 61px;
-  height: 61px;
+  width: 95px;
+  height: 95px;
   background-color: transparent;
   border: 17px solid $blue;
   top: -32px;
@@ -176,8 +176,8 @@
   z-index: 3;
 
   @media (max-width: $desktop-width) {
-    width: 42px;
-    height: 42px;
+    width: 68px;
+    height: 68px;
     border-width: 13px;
     top: -19px;
     right: -22px;

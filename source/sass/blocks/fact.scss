@@ -1,6 +1,6 @@
 .fact {
   padding-top: 151px;
-  padding-bottom: 113px;
+  padding-bottom: 111px;
 
   @media (max-width: $desktop-width) {
     padding-top: 0;
@@ -22,12 +22,12 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  margin-bottom: 101px;
+  margin-bottom: 56px;
 
   @media (max-width: $desktop-width) {
     font-size: 24px;
     line-height: 41px;
-    margin-bottom: 82px;
+    margin-bottom: 37px;
   }
 }
 
@@ -61,6 +61,7 @@
   text-align: center;
   margin: 0;
   padding: 0;
+  padding-top: 47px;
   margin-bottom: 40px;
   width: 263px;
 
@@ -68,7 +69,7 @@
     position: absolute;
     counter-increment: section;
     content: "0" counter(section);
-    top: -52px;
+    top: -7px;
     left: 50%;
     transform: translateX(-50%);
     font-weight: 700;
@@ -79,23 +80,23 @@
   }
 
   @media (max-width: $desktop-width) {
-    margin-bottom: 96px;
+    margin-bottom: 49px;
   }
 
   @media (max-width: $tablet-width) {
     font-size: 18px;
     width: 271px;
-    margin-bottom: 92px;
+    margin-bottom: 42px;
   }
 }
 
 .fact__list-item--last {
   @media (max-width: $desktop-width) {
-    margin-bottom: 44px;
+    margin-bottom: 42px;
   }
 
   @media (max-width: $tablet-width) {
-    margin-bottom: 92px;
+    margin-bottom: 49px;
   }
 }
 
