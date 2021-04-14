@@ -24,33 +24,29 @@
 }
 
 .bike__list {
-  width: 1126px;
+  max-width: 1222px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
+  padding-left: 46px;
   padding-bottom: 127px;
 
-  @media (max-width: $desktop-width) {
-    width: 100%;
+  @media (max-width: 1221px) {
     align-items: center;
     justify-content: center;
+    padding-left: 0;
     padding-bottom: 48px;
   }
 
   @media (max-width: $tablet-width) {
-    align-items: center;
-    justify-content: center;
     padding-bottom: 32px;
   }
 }
 
 .bike__list-item {
   position: relative;
-
-  @media (max-width: $desktop-width) {
-    margin-right: 50px;
-  }
+  margin-right: 50px;
 
   @media (max-width: $tablet-width) {
     margin-right: 0;
@@ -71,7 +67,7 @@
   position: relative;
   z-index: 2;
 
-  @media (max-width: $desktop-width) {
+  @media (max-width: 1221px) {
     width: 270px;
     height: 300px;
     object-fit: cover;

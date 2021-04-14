@@ -32,7 +32,8 @@
 }
 
 .fact__list {
-  width: 1166px;
+  max-width: 1166px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
