@@ -36,6 +36,9 @@
 
 .page-header__container {
   @media (max-width: $desktop-width) {
+    position: absolute;
+    top: 0;
+    left: 0;
     background: url("../img/bike-tablet.webp") center top no-repeat, url("../img/bike-tablet.jpg") center top no-repeat;
     background-color: $video-dark;
     background-size: cover;
@@ -64,6 +67,7 @@
 .page-header__logo {
   @media (max-width: $desktop-width) {
     position: absolute;
+    z-index: 6;
     top: 19px;
     left: 22px;
   }
