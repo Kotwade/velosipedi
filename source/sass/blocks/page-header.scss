@@ -15,10 +15,8 @@
 }
 
 .webp .page-header {
-  position: relative;
   background: url("../img/bike.webp") center top no-repeat;
   background-size: cover;
-  background-color: $video-dark;
 
   @media (min-resolution: 2dppx) {
     background: url("../img/bike@2x.webp") center top no-repeat;
@@ -80,10 +78,7 @@
 .webp .page-header__container {
   @media (max-width: $desktop-width) {
     background: url("../img/bike-tablet.webp") center top no-repeat;
-    background-color: $video-dark;
     background-size: cover;
-    padding: 135px 0 80px;
-    width: 100%;
 
     @media (min-resolution: 2dppx) {
       background: url("../img/bike-tablet@2x.webp") center top no-repeat;
@@ -93,9 +88,6 @@
 
   @media (max-width: $tablet-width) {
     background: url("../img/bike-mobile.webp") center top no-repeat;
-    margin-bottom: 0;
-    padding: 121px 0 70px;
-    width: 100%;
     background-size: cover;
 
     @media (min-resolution: 2dppx) {
