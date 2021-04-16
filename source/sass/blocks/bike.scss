@@ -41,6 +41,7 @@
 
   @media (max-width: $tablet-width) {
     padding-bottom: 32px;
+    flex-direction: column;
   }
 }
 
@@ -67,7 +68,7 @@
   position: relative;
   z-index: 2;
 
-  @media (max-width: 1221px) {
+  @media (max-width: $desktop-width) {
     width: 270px;
     height: 300px;
     object-fit: cover;
