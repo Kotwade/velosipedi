@@ -1,12 +1,13 @@
 .page-header {
   position: relative;
-  background: url("../img/bike.jpg") center top no-repeat;
+  background-image: url("../img/bike.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
   background-size: cover;
   background-color: $video-dark;
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/bike@2x.jpg") center top no-repeat;
-    background-size: 100% auto;
+    background-image: url("../img/bike@2x.jpg");
   }
 
   @media (max-width: $desktop-width) {
@@ -15,12 +16,10 @@
 }
 
 .webp .page-header {
-  background: url("../img/bike.webp") center top no-repeat;
-  background-size: cover;
+  background-image: url("../img/bike.webp");
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/bike@2x.webp") center top no-repeat;
-    background-size: 100% auto;
+    background-image: url("../img/bike@2x.webp");
   }
 
   @media (max-width: $desktop-width) {
@@ -50,49 +49,44 @@
 
 .page-header__container {
   @media (max-width: $desktop-width) {
-    background: url("../img/bike-tablet.jpg") center top no-repeat;
+    background-image: url("../img/bike-tablet.jpg");
     background-color: $video-dark;
+    background-repeat: no-repeat;
+    background-position: center top;
     background-size: cover;
     padding: 135px 0 80px;
     width: 100%;
 
     @media (min-resolution: 2dppx) {
-      background: url("../img/bike-tablet@2x.jpg") center top no-repeat;
-      background-size: 100% auto;
+      background-image: url("../img/bike-tablet@2x.jpg");
     }
   }
 
   @media (max-width: $tablet-width) {
     margin-bottom: 0;
     padding: 121px 0 70px;
-    background: url("../img/bike-mobile.jpg") center top no-repeat;
-    background-size: cover;
+    background-image: url("../img/bike-mobile.jpg");
 
     @media (min-resolution: 2dppx) {
-      background: url("../img/bike-mobile@2x.jpg") center top no-repeat;
-      background-size: 100% auto;
+      background-image: url("../img/bike-mobile@2x.jpg");
     }
   }
 }
 
 .webp .page-header__container {
   @media (max-width: $desktop-width) {
-    background: url("../img/bike-tablet.webp") center top no-repeat;
-    background-size: cover;
+    background-image: url("../img/bike-tablet.webp");
 
     @media (min-resolution: 2dppx) {
-      background: url("../img/bike-tablet@2x.webp") center top no-repeat;
-      background-size: 100% auto;
+      background-image: url("../img/bike-tablet@2x.webp");
     }
   }
 
   @media (max-width: $tablet-width) {
-    background: url("../img/bike-mobile.webp") center top no-repeat;
-    background-size: cover;
+    background-image: url("../img/bike-mobile.webp");
 
     @media (min-resolution: 2dppx) {
-      background: url("../img/bike-mobile@2x.webp") center top no-repeat;
-      background-size: 100% auto;
+      background-image: url("../img/bike-mobile@2x.webp");
     }
   }
 }
