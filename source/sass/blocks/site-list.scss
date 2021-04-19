@@ -1,5 +1,5 @@
 .site-list {
-  max-width: 835px;
+  max-width: 874px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -30,6 +30,8 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 32px;
+  padding-right: 20px;
+  padding-left: 20px;
   color: rgba($white, 0.7);
   letter-spacing: -0.005em;
   text-decoration: none;
